@@ -9,7 +9,24 @@ Given a sample sheet and raw FASTQ files, it trims primer sequences and outputs:
 
 ---
 
-## Requirements
+## System Requirements
+
+**Tested on:**
+- Python 3.9, 3.10, 3.11 on Linux (Ubuntu 20.04/22.04) and macOS (12+)
+- No GPU required; standard CPU only
+
+**Required non-standard hardware:**
+- None. Any standard desktop or laptop computer is sufficient.
+
+**Typical install time:**
+- ~1–2 minutes (pip install on a normal desktop with internet access)
+
+**Expected run time for demo:**
+- ~10–30 seconds for the provided demo file (`data/VH_CDR1.fastq.gz`, ~50k reads) on a standard desktop computer
+
+---
+
+## Package Requirements
 
 - Python 3.8+
 - [`regex`](https://pypi.org/project/regex/)
