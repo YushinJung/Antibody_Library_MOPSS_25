@@ -1,0 +1,2 @@
+sample_name,chain,cdr,total_reads,primer_matched_reads,primer_match_pct,expected_length,exact_length_reads,exact_length_pct,unique_aa,total_aa_reads
+VH_CDR1,H,1,10000,9927,99.27,72,9112,91.79,6244,9112
